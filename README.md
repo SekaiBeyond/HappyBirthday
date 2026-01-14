@@ -28,14 +28,16 @@
 
 ## 使用方法
 
-fork 本项目，修改 customize.json 文件，将里面的内容替换为你自己的内容，然后在 github pages 或者其它一些托管网站上部署(如 netlify)即可。
+fork 本项目，修改 customize.json 文件，将里面的内容替换为你自己的内容，然后在 github pages 或者其它一些托管网站上部署(如
+netlify)即可。
+
 - Vercel 部署
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fabandon888%2FHappyBirthday&project-name=happy-birthday)
+  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fabandon888%2FHappyBirthday&project-name=happy-birthday)
 
 - Netlify 部署（国内用户推荐，不被墙）
 
-   [![Deploy with NEtlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/abandon888/HappyBirthday)
+  [![Deploy with NEtlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/abandon888/HappyBirthday)
 
 > 你不需要向本仓库发起 PR
 
@@ -44,8 +46,9 @@ fork 本项目，修改 customize.json 文件，将里面的内容替换为你�
 1. 仅修改 customize.json 文件，不要修改其它文件，否则可能会导致页面无法正常显示。
 2. 音乐替换时注意重命名为相同名称的音乐文件或注意修改 json 文件中路径，如我这里是`bgMusic.mp3`
 3. 图片替换时生日帽子可能会偏，建议修剪图片尺寸和原图片相同，以确保最佳观赏效果。
-4. 字体替换时修改 json 中 font 配置即可，可采用本地字体或在线字体（如 Google Fonts），项目中已内置`LXGW WenKai`字体文件，可直接使用。同时 font 仅支持一种字体配置。
-  使用示例
+4. 字体替换时修改 json 中 font 配置即可，可采用本地字体或在线字体（如 Google Fonts），项目中已内置`LXGW WenKai`字体文件，可直接使用。同时
+   font 仅支持一种字体配置。
+   使用示例
 
   ```json
     "fonts": [

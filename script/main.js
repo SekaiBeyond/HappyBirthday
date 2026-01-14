@@ -36,9 +36,9 @@ const fetchData = () => {
         // Run amimation if so
         if (dataArr.length === dataArr.indexOf(customData) + 1) {
           document.querySelector("#startButton").addEventListener("click", () => {
-            document.querySelector(".startSign").style.display = "none"
-            animationTimeline()
-          }
+              document.querySelector(".startSign").style.display = "none"
+              animationTimeline()
+            }
           )
           // animationTimeline()
         }
@@ -80,11 +80,11 @@ const animationTimeline = () => {
     .to(".container", 0.1, {
       visibility: "visible"
     })
-    .from(".one", 0.7, {
+    .from(".one", 1, {
       opacity: 0,
       y: 10
     })
-    .from(".two", 0.4, {
+    .from(".two", 2, {
       opacity: 0,
       y: 10
     })
@@ -344,7 +344,7 @@ playPauseButton.addEventListener('click', () => {
 
 function togglePlay(play) {
   if (!audio) return
-  
+
   isPlaying = play
   play ? audio.play() : audio.pause()
   playPauseButton.classList.toggle('playing', play)
